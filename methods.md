@@ -5,15 +5,13 @@ say_hello('Jack')
 => "Why, hello there Jack!"
 ```
 
+-----
 
 Here’s a new Ruby syntax we haven’t seen yet.
 `%w[a b c d]`
 Using introspection, figure out what this syntax does. Tell us what you discover.
-
 Introspection - examining classes, methods and keywords to know what they are, what they do and what they know.
-
 One way of introspecting something… drop it into irb and take a deeper look at it!
-
 Next, keep digging and figure out the difference between these last two lines of code:
 
 ```ruby
@@ -22,17 +20,21 @@ a = 1
 %W[#{a} b c d]
 ```
 
+-----
 
 `pets = ["Scooby", "Soco", "Summer", "Pixie", "Wilson", "Mason","Baron", "Brinkley", "Bella"]`
 
 Write a method that takes in the pets array as a parameter. Inside that method, iterate over the array using the each method. If the name starts with an “S”, output the message “My name starts with an S for super!” If the name does not begin with an “S” output the message: “I’m still pretty special too!”.
 
+-----
 
 Define a method named `max` that takes two numbers as arguments and returns the largest of them.
 
+-----
 
 Refactor your `max` method to find the max of any number of arguments. Again, show us your tests!
 
+-----
 
 Below, we have an array of lowercase names. Write a method, `capitalize_each` that takes an array as an argument, and returns a new array with each name correctly capitalized.
 
@@ -44,6 +46,7 @@ p names
 Make sure to practice using Ruby’s map method to accomplish this!
 ```
 
+-----
 
 We tried to write a program that builds a pyramid, but we couldn’t get it to work! Your goal is to fix it for us. Here’s how we wanted it to work:
 
@@ -69,6 +72,7 @@ height.times do |i|
 end
 puts output
 ```
+
 Some Tips:
 
 ARGV is an array of the arguments passed in through the command line. For example, when we run `ruby pyramid.rb 23`, then `ARGV == ["23"]`.
